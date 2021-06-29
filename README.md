@@ -6,7 +6,8 @@ Web App using Streamlit
 ![image](https://user-images.githubusercontent.com/59146328/123757060-34c9a600-d8db-11eb-89bd-20cd3dd6195b.png)
 ![image](https://user-images.githubusercontent.com/59146328/123757138-4c089380-d8db-11eb-8b8e-c66e7a257b3e.png)
 ![image](https://user-images.githubusercontent.com/59146328/123757397-912cc580-d8db-11eb-85cd-f23e2250fd73.png)
-![image](https://user-images.githubusercontent.com/59146328/123757647-d18c4380-d8db-11eb-8d98-59955f54cb5d.png)
+![image](https://user-images.githubusercontent.com/59146328/123758307-6abb5a00-d8dc-11eb-807b-d51c9dea20b9.png)
+
 
 
 
