@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 
 st.title("Used Car Price Prediction")
 
-data = pd.read_csv("data/Car_Data.csv")
+data = pd.read_csv("https://github.com/k18chaitanya/Car_Price_Prediction_App/blob/main/data/Car_Data.csv")
 
 lr = LinearRegression()
 Z = data[['horsepower', 'curb-weight', 'engine-size', 'highway-mpg']]
@@ -18,7 +18,7 @@ lr.fit(Z, data['price'])
 nav = st.sidebar.radio("Navigation",["Home","Prediction"])
 
 if nav == "Home":
-    st.image("data/car.jpg",width= 700)
+    st.image("https://github.com/k18chaitanya/Car_Price_Prediction_App/blob/main/data/car.jpg",width= 700)
     if st.checkbox("Show Dataset"):
         st.dataframe(data)
     
@@ -72,7 +72,7 @@ if nav == "Home":
 
 
 elif nav == "Prediction":
-    st.image("data/money.jpg",width= 500)
+    st.image("https://github.com/k18chaitanya/Car_Price_Prediction_App/blob/main/data/money.jpg",width= 500)
     st.header("Know your Car Price")
     val1 = st.number_input("Enter your Car's Horsepower",50,200,step = 3)
     val2 = st.number_input("Enter your Car's Curb-weight (pounds)",1500,4000,step = 5)
